@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <title>Service Worker Demo</title>
+  <style>
+    .container {
+      width: 100%;
+      display: flex;
+    }
+
+    .imgCont {
+      width: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="imgCont">
+      <div>No cache</div>
+      <img src="/img/nocache.jpg" />
+    </div>
+    <div class="imgCont">
+      <div>From service worker</div>
+      <img src="/img/cache.jpg" />
+    </div>
+  </div>
+  <script src="/home.js"></script>
+</body>
+
+</html>
